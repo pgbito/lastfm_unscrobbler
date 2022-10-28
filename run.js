@@ -3,14 +3,13 @@
 const process = require('process')
 
 const [bn, ...argv] = Array.from(process.argv.slice(1))
-
-const usage=`
-
+console.log(`
                  _                                               
 |  _.  _ _|_   _|_ ._ _        ._   _  _ ._ _  |_  |_  |  _  ._ 
 | (_| _>  |_    |  | | |   |_| | | _> (_ | (_) |_) |_) | (/_ |   by pgbito
                                                
-
+`)
+const usage=`
 Usage: ${ require('path').basename(bn)} {login, unscrobble}`
 
 
