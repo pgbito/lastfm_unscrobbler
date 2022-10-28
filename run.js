@@ -36,4 +36,4 @@ switch (argv[0]) {
         console.log(usage)
         break;
 }
-process.exit(0)
+
