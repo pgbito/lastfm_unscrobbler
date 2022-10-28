@@ -1,0 +1,27 @@
+{
+  "name": "lastfm_unscrobbler",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {
+  
+    "inquirer": "^8.0.0",
+    "js-yaml": "^3.12.0",
+    "request": "^2.88.0"
+
+  },
+  "main": "index.js",
+  "scripts": {
+    "login": "node run login",
+ 
+    "unscrobble": "node run unscrobble"
+  
+  },
+
+  "keywords": [],
+  "author": "pgbito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgbito/lastfm_unscrobbler/issues"
+  },
+  "homepage": "https://github.com/pgbito/lastfm_unscrobbler/"
+}
